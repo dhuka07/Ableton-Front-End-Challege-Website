@@ -1,0 +1,45 @@
+/* body{
+    background-color: #fbffa7;
+} */
+
+.headcard {
+    /* background-repeat: none; */
+    /* background-size: cover; */
+    width:100%;
+    height:50%;
+    background-position:50% 50% ;
+    background-image:url('../images/mobileheader.jpeg');
+ 
+}    
+    
+p {
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+    color:#ff764d;
+    font-size: 30px;
+}
+@media screen and (min-width: 380px){
+    
+/* Desktop style */
+    ul{
+        list-style-type: none;
+        cursor: pointer;
+    }
+    .headcard {
+        background-repeat: none;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        background-position: 50% 50%;
+        background-image:url('../images/header.jpeg');
+    }
+    p{
+        text-align: center;
+        margin-top: 0%;
+        color: #ff764d;
+        font-size: 100px;
+    }
+    
+    }
+    
